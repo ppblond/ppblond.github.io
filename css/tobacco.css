@@ -22,6 +22,30 @@
     text-decoration: none;
 }
 
+.tobacco_list .link .back {
+    position: relative;
+    left: 10px;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    border-bottom: 1px solid red;
+    background-color: #fff;
+    align-items: center;
+    justify-content: left;
+    cursor: pointer;
+}
+
+.tobacco_list .link .back .label {
+    position: relative;
+    text-decoration: none;
+    left: 10px;
+    align-items: center;
+    justify-content: left;
+    font-size: 20px;
+    color: rgba(0, 0, 255, 0.465);
+    cursor: pointer;
+}
+
 .tobacco_list .link .darkside {
     position: relative;
     left: 10px;
