@@ -12,17 +12,17 @@
     background: rgb(#fff);
 }
 
-.category {
+.tobacco_list {
     position: relative;
     width: 220px;
     height: 85px;
 }
 
-.category .link {
+.tobacco_list .link {
     text-decoration: none;
 }
 
-.category .link .hookah {
+.tobacco_list .link .darkside {
     position: relative;
     left: 10px;
     width: 200px;
@@ -32,9 +32,10 @@
     background-color: #fff;
     align-items: center;
     justify-content: left;
+    /*font-size: 20px;*/
     cursor: pointer;
 }
-.category .link .hookah .label {
+.tobacco_list .link .darkside .label {
     position: relative;
     text-decoration: none;
     left: 10px;
@@ -45,7 +46,7 @@
     cursor: pointer;
 }
 
-.category .link .tobacco {
+.tobacco_list .link .blackburn {
     position: relative;
     left: 10px;
     width: 200px;
@@ -56,9 +57,8 @@
     align-items: center;
     justify-content: left;
     cursor: pointer;
-}   
-
-.category .link .tobacco .label {
+}
+.tobacco_list .link .blackburn .label {
     position: relative;
     text-decoration: none;
     left: 10px;
